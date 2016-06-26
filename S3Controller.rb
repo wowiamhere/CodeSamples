@@ -1,5 +1,4 @@
 =begin 
-
   
   Controller where custom S3 Ruby uploader called
     - Controller takes file from user
