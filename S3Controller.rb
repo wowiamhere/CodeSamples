@@ -1,5 +1,5 @@
 =begin 
-  
+succe  
   Controller where custom S3 Ruby uploader called
     - Controller takes file from user
     - Passes file to delete_picture_put_new_one where

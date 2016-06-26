@@ -4,7 +4,7 @@ http://RunTechServices.com
 Custom made Ruby S3 uploader.
 	- Takes picture over from controller (after resizing via Rmagick).
 	- Builds S3
-			-authorization, headers, signature, etc. (S3 specs).
+		-authorization, headers, signature, etc. (S3 specs).
 			http://docs.aws.amazon.com/AmazonS3/latest/API/sig-v4-header-based-auth.html
 			http://docs.aws.amazon.com/AmazonS3/latest/API/sigv4-auth-using-authorization-header.html
 	- GETs an image via Net::HTTP::Get
