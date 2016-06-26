@@ -1,5 +1,5 @@
-### sergiognrl@hotmail.com
-##### http://RunTechServices.com
+## sergiognrl@hotmail.com
+### http://RunTechServices.com
 
 ##### 1 Custom made Ruby S3 uploader.
 * Takes picture over from controller (after resizing via Rmagick).
