@@ -1,6 +1,7 @@
 sergiognrl@hotmail.com
 http://RunTechServices.com
 
+1
 Custom made Ruby S3 uploader.
 	- Takes picture over from controller (after resizing via Rmagick).
 	- Builds S3
@@ -10,7 +11,10 @@ Custom made Ruby S3 uploader.
 	- GETs an image via Net::HTTP::Get
 	- PUTs an image via Net::HTTP::Put
 	- DELETES an image via Net::HTTP::Delete
+	
+------------------------
 
+1.1
 Controller where custom S3 Ruby uploader called
     - Controller takes file from user
     - Passes file to delete_picture_put_new_one where
@@ -20,3 +24,12 @@ Controller where custom S3 Ruby uploader called
       - Deletes current picture in S3
       - Updates name of new picture to users table (postres)
       - Calls custom uploader to Put picture on S3 
+
+------------------------
+	  
+2	
+PostgreSQL local deployment database query
+	- Selects column name and data type.
+	- Selects table from local deployment database 
+		and displays data
+	  
