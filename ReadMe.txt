@@ -1,7 +1,7 @@
-sergiognrl@hotmail.com
-http://RunTechServices.com
+# sergiognrl@hotmail.com
+## http://RunTechServices.com
 
-1
+1.
 Custom made Ruby S3 uploader.
 	- Takes picture over from controller (after resizing via Rmagick).
 	- Builds S3
@@ -27,7 +27,7 @@ Controller where custom S3 Ruby uploader called
 
 ------------------------
 	  
-2	
+2.	
 PostgreSQL local deployment database query
 	- Selects column name and data type.
 	- Selects table from local deployment database 
