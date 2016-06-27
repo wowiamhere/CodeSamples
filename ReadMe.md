@@ -1,7 +1,11 @@
 # sergiognrl@hotmail.com
-# http://RunTechServices.com
 
-### 1 **Custom made Ruby S3 uploader.**
+http://RunTechServices.com
+
+#### Ruby/Rails
+
+*Custom made Ruby S3 uploader.*
+
 * Takes picture over from controller (after resizing via Rmagick).
 - Builds S3
 - authorization, headers, signature, etc. (S3 specs).
@@ -13,7 +17,10 @@
 
 ------------------------
 
-### 1.1 **Controller where custom S3 Ruby uploader called.**
+#### Rails
+
+*Controller where custom S3 Ruby uploader called.*
+
 * Controller takes file from user
 - Passes file to delete_picture_put_new_one where ruby uuploader takes over
 	* delete_picture_put_new_one
@@ -23,9 +30,26 @@
 	+ Calls custom uploader to Put picture on S3 
 
 ------------------------
-	  
-### 2 **PostgreSQL local deployment database query**
+
+#### Postgresql
+
+*Query local PostgreSQL database deployment*
+
 - Selects column name and data type.
 - Selects table from local deployment database 
 	and displays data
-	  
+
+------------------------
+
+#### Angular
+
+*This is a set of custom AngularJs controllers/factories/services from [Latest Fashion Trendz](https://bitbucket.org/wowiamhere/latestfashiontrendzblog) bitbucket accout*
+
+AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to serve postgresql data to frontend user
+
+
+### AngularJs.js
+- Factory to set request methods, data source url and tie it to user's id.
+- app.js Injects necessary services (ngRoute, ngResource, etc)
+- AngularJs index controller to display all data in table
+- AngularJs Edit controller to edit database from frontend
