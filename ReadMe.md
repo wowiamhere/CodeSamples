@@ -2,14 +2,12 @@
 
 http://RunTechServices.com
 
-#### Angular
+#### AngularJs
 
 *This is a set of custom AngularJs controllers/factories/services from [Latest Fashion Trendz](https://bitbucket.org/wowiamhere/latestfashiontrendzblog) bitbucket accout*
 
 AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to serve postgresql data to frontend user
 
-
-### AngularJs.js
 - Factory to set request methods, data source url and tie it to user's id.
 - app.js Injects necessary services (ngRoute, ngResource, etc)
 - AngularJs index controller to display all data in table
