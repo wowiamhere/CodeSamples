@@ -12,7 +12,10 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 - Factory to set request methods, data source url and tie it to user's id.
 - app.js Injects necessary services (ngRoute, ngResource, etc)
 - AngularJs index controller to display all data in table
-- AngularJs Edit controller to edit database from frontend
+- AngularJs Edit controller to edit database from frontend  
+
+> link to scripts within project:  
+> **https://bitbucket.org/wowiamhere/latestfashiontrendzblog/src/d03d0fd419eea68e6b58cea368129e3a6b230659/app/assets/javascripts/?at=master**
 
 -------------------------
 
@@ -54,6 +57,9 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 - PUTs an image in S3 bucket via Net::HTTP::Put
 - DELETES an image from S3 bucket via Net::HTTP::Delete
 
+> Link to script within project  
+> https://bitbucket.org/wowiamhere/runtechservices/src/42dd618a9112a1eb45f1365f054461de81a362bc/app/helpers/s3_helper.rb?at=master
+
 **S3Controller.rb**  
 *Controller where custom S3 Ruby uploader called.*
 
@@ -63,7 +69,10 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 	+ Checks for file name in users table (postres)
 	- Deletes current picture in S3
 	* Updates name of new picture to users table (postres)
-	+ Calls custom uploader to Put picture on S3 
+	+ Calls custom uploader to Put picture on S3  
+
+> Link to script within project  
+> https://bitbucket.org/wowiamhere/runtechservices/src/42dd618a9112a1eb45f1365f054461de81a362bc/app/controllers/users_controller.rb?at=master
 
 ------------------------
 
@@ -85,7 +94,10 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 *Custom Ruby script for Stackoverflow.com querying of user's account*
 
 * displays stackexchange.com user's quetions/relevant-information
-* information displayed in Rails partial throughout online portfolio
+* information displayed in Rails partial throughout online portfolio  
+
+> Link to script within project  
+> https://bitbucket.org/wowiamhere/runtechservices/src/42dd618a9112a1eb45f1365f054461de81a362bc/app/helpers/stackexchangeapi_helper.rb?at=master  
 
 ------------------------
 
