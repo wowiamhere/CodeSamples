@@ -18,7 +18,7 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 
 #### Postgresql
 
-**PostgreSqlQuery.rb**
+**PostgreSqlQuery.rb**  
 *Query local PostgreSQL database deployment*
 
 - table_rows_types
@@ -28,7 +28,7 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 - get_table_names (based on shema)
 	- fetches tables within specified Postgre schema
 
-**database.rb**
+**database.rb**  
 *Query local postgreSql database deployment*
 
 - tables
@@ -42,7 +42,7 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 
 #### Rails/Ruby
 
-**S3Uploader.rb**
+**S3Uploader.rb**  
 *Custom Ruby Amazon's S3 PUT, GET, DELETE script*
 
 * Takes picture over from a rails controller (after resizing via Rmagick).
@@ -54,7 +54,7 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 - PUTs an image in S3 bucket via Net::HTTP::Put
 - DELETES an image from S3 bucket via Net::HTTP::Delete
 
-**S3Controller.rb**
+**S3Controller.rb**  
 *Controller where custom S3 Ruby uploader called.*
 
 * Controller takes file from user
@@ -69,7 +69,7 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 
 #### Ruby
 
-**S3Uploader.rb**
+**S3Uploader.rb**  
 *Custom Ruby Amazon's S3 PUT, GET, DELETE script*
 
 * Takes picture over from a rails controller (after resizing via Rmagick).
@@ -81,7 +81,7 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 - PUTs an image in S3 bucket via Net::HTTP::Put
 - DELETES an image from S3 bucket via Net::HTTP::Delete  
 
-**stackexchangeapi_helper.rb**
+**stackexchangeapi_helper.rb**  
 *Custom Ruby script for Stackoverflow.com querying of user's account*
 
 * displays stackexchange.com user's quetions/relevant-information
