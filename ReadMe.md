@@ -14,8 +14,11 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 - AngularJs index controller to display all data in table
 - AngularJs Edit controller to edit database from frontend  
 
-> link to scripts within project:  
-> **https://bitbucket.org/wowiamhere/latestfashiontrendzblog/src/d03d0fd419eea68e6b58cea368129e3a6b230659/app/assets/javascripts/?at=master**
+> Quick View   
+> https://bitbucket.org/wowiamhere/codesamples/src/24be17bf262b84c399c9543f9fdda337521b38db/AngularJs/angularSample.js?at=master  
+
+> Link to scripts within project  
+> https://bitbucket.org/wowiamhere/latestfashiontrendzblog/src/d03d0fd419eea68e6b58cea368129e3a6b230659/app/assets/javascripts/?at=master
 
 -------------------------
 
@@ -41,7 +44,10 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 - get_schemas
 	- App exposes a UI to user to pick schema to look under
 
-------------------------
+> Link to scripts  
+> https://bitbucket.org/wowiamhere/codesamples/src/24be17bf262b84c399c9543f9fdda337521b38db/PostgreSql/?at=master  
+
+------------------------  
 
 #### Rails/Ruby
 
@@ -55,7 +61,10 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 		- http://docs.aws.amazon.com/AmazonS3/latest/API/sigv4-auth-using-authorization-header.html
 - GETs an image from S3 via Net::HTTP::Get
 - PUTs an image in S3 bucket via Net::HTTP::Put
-- DELETES an image from S3 bucket via Net::HTTP::Delete
+- DELETES an image from S3 bucket via Net::HTTP::Delete  
+
+> Quick View  
+> https://bitbucket.org/wowiamhere/codesamples/src/24be17bf262b84c399c9543f9fdda337521b38db/Ruby/S3Uploader.rb?at=master  
 
 > Link to script within project  
 > https://bitbucket.org/wowiamhere/runtechservices/src/42dd618a9112a1eb45f1365f054461de81a362bc/app/helpers/s3_helper.rb?at=master
@@ -70,6 +79,9 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 	- Deletes current picture in S3
 	* Updates name of new picture to users table (postres)
 	+ Calls custom uploader to Put picture on S3  
+
+> Quick View  
+> https://bitbucket.org/wowiamhere/codesamples/src/24be17bf262b84c399c9543f9fdda337521b38db/RailsRuby/S3Controller.rb?at=master  	
 
 > Link to script within project  
 > https://bitbucket.org/wowiamhere/runtechservices/src/42dd618a9112a1eb45f1365f054461de81a362bc/app/controllers/users_controller.rb?at=master
@@ -95,6 +107,9 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 
 * displays stackexchange.com user's quetions/relevant-information
 * information displayed in Rails partial throughout online portfolio  
+
+> Quick View  
+> https://bitbucket.org/wowiamhere/codesamples/src/24be17bf262b84c399c9543f9fdda337521b38db/Ruby/stackexchangeapi_helper.rb?at=master  
 
 > Link to script within project  
 > https://bitbucket.org/wowiamhere/runtechservices/src/42dd618a9112a1eb45f1365f054461de81a362bc/app/helpers/stackexchangeapi_helper.rb?at=master  
