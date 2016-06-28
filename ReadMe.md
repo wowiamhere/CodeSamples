@@ -1,8 +1,8 @@
 # Sergio S.  
-## sergiognrl@hotmail.com  
-###http://RunTechServices.com  
+### sergiognrl@hotmail.com  
+#### http://RunTechServices.com  
 
-#### AngularJs
+### AngularJs
 
 **angularSample.js**  
 *This is a set of custom AngularJs controllers/factories/services from [Latest Fashion Trendz](https://bitbucket.org/wowiamhere/latestfashiontrendzblog) bitbucket accout*
@@ -22,7 +22,7 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 
 -------------------------
 
-#### Postgresql
+### Postgresql
 
 **PostgreSqlQuery.rb**  
 *Query local PostgreSQL database deployment*
@@ -49,7 +49,7 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 
 ------------------------  
 
-#### Rails/Ruby
+### Rails/Ruby
 
 **S3Uploader.rb**  
 *Custom Ruby Amazon's S3 PUT, GET, DELETE script*
@@ -88,7 +88,7 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 
 ------------------------
 
-#### Ruby
+### Ruby
 
 **S3Uploader.rb**  
 *Custom Ruby Amazon's S3 PUT, GET, DELETE script*
