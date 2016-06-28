@@ -4,7 +4,7 @@ http://RunTechServices.com
 
 #### AngularJs
 
-**angularSample.js**''
+**angularSample.js**  
 *This is a set of custom AngularJs controllers/factories/services from [Latest Fashion Trendz](https://bitbucket.org/wowiamhere/latestfashiontrendzblog) bitbucket accout*
 
 AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to serve postgresql data to frontend user
