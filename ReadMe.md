@@ -1,13 +1,15 @@
 # Sergio S.  
-<h4 style="display:inline"><a href="mailto:sergiognrl@hotmail.com" style="color:green;">sergioGnrl@hotmail</a></h4>  
-<h4 style="display:inline"><a href="http://RunTechServices.com" style="color:green;">RunTechServices.com</a></h4>  
+#### sergioGnrl@hotmail    
+#### RunTechServices.com  
 -------------------------  
 *Click below to jump down README.MD*  
+
+
 <h5 style="display:inline;">
 <a href="#iAng" style="color:green">AngularJs</a></h5> | <h5 style="display:inline;"><a href="#iPostg" style="color:green">PostgreSQL</a></h5> | <h5 style="display:inline;"><a href="#iRailsRuby" style="color:green">Rails/Ruby</a></h5> | <h5 style="display:inline;"><a href="#iRSpec" style="color:green">RSpec</a></h5> | <h5 style="display:inline;"><a href="#iRuby" style="color:green">Ruby</a></h5>  
 -------------------------  
 
-<h3 id="iAng">AngularJs</h3>
+### AngularJs  
 
 **angularSample.js**  
 *This is a set of custom AngularJs controllers/factories/services from [Latest Fashion Trendz](https://bitbucket.org/wowiamhere/latestfashiontrendzblog) bitbucket accout*
@@ -27,7 +29,7 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 
 -------------------------
 
-<h3 id="iPostg">Postgresql</h3>
+### Postgresql  
  **PostgreSqlQuery.rb**  
 *Query local PostgreSQL database deployment*
 
@@ -53,7 +55,7 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 
 ------------------------  
 
-<h3 id="iRailsRuby">Rails/Ruby</h3>
+### Rails/Ruby  
 
 **S3Uploader.rb**  
 *Custom Ruby Amazon's S3 PUT, GET, DELETE script*
@@ -92,7 +94,7 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 
 ------------------------
 
-<h3 id="iRSpec">RSpec</h3>
+### RSpec  
 
 *These are a collection of Model tests for my Rails Online Portfolio*  
 
@@ -104,19 +106,31 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 	- length (depends on Model attributes)  
 	- format (email -regex)  
 
+> Quick View  
+> https://github.com/wowiamhere/CodeSamples/blob/master/rspec/user_spec.rb  
+
+> Link to script withi project  
+> 
+
 **post_spec.rb & comment_spec.rb**  
 
 - Takes Comment/Post Model for testing implemented via Rails  
 	- presence, length  
 
-> Quick View  
+> Quick View (post_spec)
+> https://github.com/wowiamhere/CodeSamples/blob/master/rspec/post_spec.rb  
+
+> Link to script within project  
 > 
+
+> Quick view (comment_spec)  
+> https://github.com/wowiamhere/CodeSamples/blob/master/rspec/comment_spec.rb  
 
 **<small style="color:green">controller specs comming soon ...</small>**  
 
 ------------------------
 
-<h3 id="iRuby">Ruby</h3>  
+### Ruby  
 
 **S3Uploader.rb**  
 *Custom Ruby Amazon's S3 PUT, GET, DELETE script*
