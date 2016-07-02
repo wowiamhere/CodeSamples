@@ -103,13 +103,9 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 - Takes Comment/Post Model for testing implemented via Rails  
 	- presence, length  
 
-> [Quick View (post_spec)](https://bitbucket.org/wowiamhere/codesamples/src/a3fc1eb1103919f4698178da9e5d4dab458df29c/rspec/post_spec.rb?at=master, "wowiamhere's bitbucket account")  
+> [Quick View (post_spec)](https://bitbucket.org/wowiamhere/codesamples/src/a3fc1eb1103919f4698178da9e5d4dab458df29c/rspec/post_spec.rb?at=master, "wowiamhere's bitbucket account") / [(comment_spec)](https://bitbucket.org/wowiamhere/codesamples/src/a3fc1eb1103919f4698178da9e5d4dab458df29c/rspec/comment_spec.rb?at=master, "wowiamhere's bitbucket account")  
 
-> [Link to script within project (post_spec)](https://bitbucket.org/wowiamhere/runtechservices/src/aa60bb9479aa7f4f54c9347fb3deff827b778401/spec/models/post_spec.rb?at=master, "wowiamhere's bitbucket account")  
-
-> [Quick view (comment_spec)](https://bitbucket.org/wowiamhere/codesamples/src/a3fc1eb1103919f4698178da9e5d4dab458df29c/rspec/comment_spec.rb?at=master, "wowiamhere's bitbucket account")  
-
-> [Link to script within project (comment_spec)](https://bitbucket.org/wowiamhere/runtechservices/src/aa60bb9479aa7f4f54c9347fb3deff827b778401/spec/models/comment_spec.rb?at=master, "wowiamhere's bitbucket account")  
+> [Link to script within project (post_spec)](https://bitbucket.org/wowiamhere/runtechservices/src/aa60bb9479aa7f4f54c9347fb3deff827b778401/spec/models/post_spec.rb?at=master, "wowiamhere's bitbucket account") / [(comment_spec)](https://bitbucket.org/wowiamhere/runtechservices/src/aa60bb9479aa7f4f54c9347fb3deff827b778401/spec/models/comment_spec.rb?at=master, "wowiamhere's bitbucket account")    
 
 *controller specs comming soon ...*  
 
