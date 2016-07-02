@@ -16,11 +16,9 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 - AngularJs index controller to display all data in table
 - AngularJs Edit controller to edit database from frontend  
 
-> Quick View   
-> https://bitbucket.org/wowiamhere/codesamples/src/24be17bf262b84c399c9543f9fdda337521b38db/AngularJs/angularSample.js?at=master  
+> [Quick View](https://bitbucket.org/wowiamhere/codesamples/src/24be17bf262b84c399c9543f9fdda337521b38db/AngularJs/angularSample.js?at=master, "wowiamhere's bitbucket account")  
 
-> Link to scripts within project  
-> https://bitbucket.org/wowiamhere/latestfashiontrendzblog/src/d03d0fd419eea68e6b58cea368129e3a6b230659/app/assets/javascripts/?at=master
+> [Link to scripts within project](https://bitbucket.org/wowiamhere/latestfashiontrendzblog/src/d03d0fd419eea68e6b58cea368129e3a6b230659/app/assets/javascripts/?at=master, "wowiamhere's bitbucket account")  
 
 -------------------------
 
@@ -45,8 +43,7 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 - get_schemas
 	- App exposes a UI to user to pick schema to look under
 
-> Link to scripts  
-> https://bitbucket.org/wowiamhere/codesamples/src/24be17bf262b84c399c9543f9fdda337521b38db/PostgreSql/?at=master  
+> [Link to scripts](https://bitbucket.org/wowiamhere/codesamples/src/24be17bf262b84c399c9543f9fdda337521b38db/PostgreSql/?at=master, "wowiamhere's bitbucket account")  
 
 ------------------------  
 
@@ -64,11 +61,9 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 - PUTs an image in S3 bucket via Net::HTTP::Put
 - DELETES an image from S3 bucket via Net::HTTP::Delete  
 
-> Quick View  
-> https://bitbucket.org/wowiamhere/codesamples/src/24be17bf262b84c399c9543f9fdda337521b38db/Ruby/S3Uploader.rb?at=master  
+> [Quick View](https://bitbucket.org/wowiamhere/codesamples/src/24be17bf262b84c399c9543f9fdda337521b38db/Ruby/S3Uploader.rb?at=master, "wowiamhere's bitbucket account")  
 
-> Link to script within project  
-> https://bitbucket.org/wowiamhere/runtechservices/src/42dd618a9112a1eb45f1365f054461de81a362bc/app/helpers/s3_helper.rb?at=master
+> [Link to script within project](https://bitbucket.org/wowiamhere/runtechservices/src/42dd618a9112a1eb45f1365f054461de81a362bc/app/helpers/s3_helper.rb?at=master, "wowiamhere's bitbucket account")  
 
 **S3Controller.rb**  
 *Controller where custom S3 Ruby uploader called.*
@@ -81,11 +76,9 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 	* Updates name of new picture to users table (postres)
 	+ Calls custom uploader to Put picture on S3  
 
-> Quick View  
-> https://bitbucket.org/wowiamhere/codesamples/src/24be17bf262b84c399c9543f9fdda337521b38db/RailsRuby/S3Controller.rb?at=master  	
+> [Quick View](https://bitbucket.org/wowiamhere/codesamples/src/24be17bf262b84c399c9543f9fdda337521b38db/RailsRuby/S3Controller.rb?at=master, "wowiamhere's bitbucket account")  
 
-> Link to script within project  
-> https://bitbucket.org/wowiamhere/runtechservices/src/42dd618a9112a1eb45f1365f054461de81a362bc/app/controllers/users_controller.rb?at=master
+> [Link to script within project](https://bitbucket.org/wowiamhere/runtechservices/src/42dd618a9112a1eb45f1365f054461de81a362bc/app/controllers/users_controller.rb?at=master, "wowiamhere's bitbucket account")  
 
 ------------------------
 
@@ -101,27 +94,24 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 	- length (depends on Model attributes)  
 	- format (email -regex)  
 
-> Quick View  
-> https://github.com/wowiamhere/CodeSamples/blob/master/rspec/user_spec.rb  
+> [Quick View](https://bitbucket.org/wowiamhere/codesamples/src/a3fc1eb1103919f4698178da9e5d4dab458df29c/rspec/user_spec.rb?at=master, "wowiamhere's bitbucket account")  
 
-> Link to script withi project  
-> 
+> [Link to script withi project](https://bitbucket.org/wowiamhere/runtechservices/src/aa60bb9479aa7f4f54c9347fb3deff827b778401/spec/models/user_spec.rb?at=master, "wowiamhere's bitbucket account")  
 
 **post_spec.rb & comment_spec.rb**  
 
 - Takes Comment/Post Model for testing implemented via Rails  
 	- presence, length  
 
-> Quick View (post_spec)
-> https://github.com/wowiamhere/CodeSamples/blob/master/rspec/post_spec.rb  
+> [Quick View (post_spec)](https://bitbucket.org/wowiamhere/codesamples/src/a3fc1eb1103919f4698178da9e5d4dab458df29c/rspec/post_spec.rb?at=master, "wowiamhere's bitbucket account")  
 
-> Link to script within project  
-> 
+> [Link to script within project (post_spec)](https://bitbucket.org/wowiamhere/runtechservices/src/aa60bb9479aa7f4f54c9347fb3deff827b778401/spec/models/post_spec.rb?at=master, "wowiamhere's bitbucket account")  
 
-> Quick view (comment_spec)  
-> https://github.com/wowiamhere/CodeSamples/blob/master/rspec/comment_spec.rb  
+> [Quick view (comment_spec)](https://bitbucket.org/wowiamhere/codesamples/src/a3fc1eb1103919f4698178da9e5d4dab458df29c/rspec/comment_spec.rb?at=master, "wowiamhere's bitbucket account")  
 
-**<small style="color:green">controller specs comming soon ...</small>**  
+> [Link to script within project (comment_spec)](https://bitbucket.org/wowiamhere/runtechservices/src/aa60bb9479aa7f4f54c9347fb3deff827b778401/spec/models/comment_spec.rb?at=master, "wowiamhere's bitbucket account")  
+
+*controller specs comming soon ...*  
 
 ------------------------
 
@@ -145,11 +135,9 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 * displays stackexchange.com user's quetions/relevant-information
 * information displayed in Rails partial throughout online portfolio  
 
-> Quick View  
-> https://bitbucket.org/wowiamhere/codesamples/src/24be17bf262b84c399c9543f9fdda337521b38db/Ruby/stackexchangeapi_helper.rb?at=master  
+> [Quick View](https://bitbucket.org/wowiamhere/codesamples/src/24be17bf262b84c399c9543f9fdda337521b38db/Ruby/stackexchangeapi_helper.rb?at=master, "wowiamhere's bitbucket account")  
 
-> Link to script within project  
-> https://bitbucket.org/wowiamhere/runtechservices/src/42dd618a9112a1eb45f1365f054461de81a362bc/app/helpers/stackexchangeapi_helper.rb?at=master  
+> [Link to script within project](https://bitbucket.org/wowiamhere/runtechservices/src/42dd618a9112a1eb45f1365f054461de81a362bc/app/helpers/stackexchangeapi_helper.rb?at=master, "wowiamhere's bitbucket account")  
 
 ------------------------
 
