@@ -1,11 +1,7 @@
 # Sergio S.  
 #### sergioGnrl@hotmail    
 #### RunTechServices.com  
--------------------------  
-*Click below to jump down README.MD*  
-(this menu only works on github)  
-
-<h5 style="display:inline;"><a href="#iAng" style="color:green">AngularJs</a></h5> | <h5 style="display:inline;"><a href="#iPostg" style="color:green">PostgreSQL</a></h5> | <h5 style="display:inline;"><a href="#iRailsRuby" style="color:green">Rails/Ruby</a></h5> | <h5 style="display:inline;"><a href="#iRSpec" style="color:green">RSpec</a></h5> | <h5 style="display:inline;"><a href="#iRuby" style="color:green">Ruby</a></h5>  
+ 
 -------------------------  
 
 ### AngularJs  
