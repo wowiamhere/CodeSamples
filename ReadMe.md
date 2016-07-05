@@ -116,7 +116,7 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 - UsersController#index (displays all data on table if user logged in && adin -skip before filter)  
 	- checks  
 		- redirect to root_url if not logged in  
-		- @users Enumerable is set  
+		- users Enumerable is set  
 		- response status  
 		- renders :index template   
 - UsersController#show (shows 1 item in table if logged in && user == current_user -skip before filter)  
