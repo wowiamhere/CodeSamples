@@ -86,6 +86,8 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 
 *These are a collection of Model tests for my Rails Online Portfolio*  
 
+*Model specs*  
+
 **user_spec.rb** 
 
 - Takes User Model from my Online Portfolio and tests for Validation  
@@ -107,6 +109,8 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 
 > [Link to script within project (post_spec)](https://bitbucket.org/wowiamhere/runtechservices/src/aa60bb9479aa7f4f54c9347fb3deff827b778401/spec/models/post_spec.rb?at=master, "wowiamhere's bitbucket account") / [(comment_spec)](https://bitbucket.org/wowiamhere/runtechservices/src/aa60bb9479aa7f4f54c9347fb3deff827b778401/spec/models/comment_spec.rb?at=master, "wowiamhere's bitbucket account")    
 
+*Controller specs*  
+
 **users_controller_spec.rb**  
 
 - UsersController#index (displays all data on table if user logged in && adin -skip before filter)  
@@ -122,11 +126,9 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 		- variables set (@user, @pic) (via rspec match)  
 		- renders :show template  
 
-> [Quick View]()  
+> [Quick View](https://bitbucket.org/wowiamhere/codesamples/src/f6e51502b4d4fd2d51c974ff25949eb0550038c4/rspec/users_controller_spec.rb?at=master, "wowiamhere's bitbucket account")  
 
 > [Link to script within project]()  
-
-*controller specs comming soon ...*  
 
 ------------------------
 
