@@ -128,8 +128,6 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 
 > [Quick View](https://bitbucket.org/wowiamhere/codesamples/src/f6e51502b4d4fd2d51c974ff25949eb0550038c4/rspec/users_controller_spec.rb?at=master, "wowiamhere's bitbucket account")  
 
-> [Link to script within project]()  
-
 ------------------------
 
 ### Ruby  
