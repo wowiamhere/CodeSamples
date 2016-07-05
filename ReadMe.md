@@ -107,6 +107,25 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 
 > [Link to script within project (post_spec)](https://bitbucket.org/wowiamhere/runtechservices/src/aa60bb9479aa7f4f54c9347fb3deff827b778401/spec/models/post_spec.rb?at=master, "wowiamhere's bitbucket account") / [(comment_spec)](https://bitbucket.org/wowiamhere/runtechservices/src/aa60bb9479aa7f4f54c9347fb3deff827b778401/spec/models/comment_spec.rb?at=master, "wowiamhere's bitbucket account")    
 
+**users_controller_spec.rb**  
+
+- UsersController#index (displays all data on table if user logged in && adin -skip before filter)  
+	- checks  
+		- redirect to root_url if not logged in  
+		- @users Enumerable is set  
+		- response status  
+		- renders :index template   
+- UsersController#show (shows 1 item in table if logged in && user == current_user -skip before filter)  
+	- checks  
+		- redirect to login if not logged in  
+		- response status  
+		- variables set (@user, @pic) (via rspec match)  
+		- renders :show template  
+
+> [Quick View]()  
+
+> [Link to script within project]()  
+
 *controller specs comming soon ...*  
 
 ------------------------
