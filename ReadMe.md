@@ -86,7 +86,7 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 
 *These are a collection of Model tests for my Rails Online Portfolio*  
 
-*Model specs*  
+##### Model specs  
 
 **user_spec.rb** 
 
@@ -109,7 +109,7 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 
 > [Link to script within project (post_spec)](https://bitbucket.org/wowiamhere/runtechservices/src/aa60bb9479aa7f4f54c9347fb3deff827b778401/spec/models/post_spec.rb?at=master, "wowiamhere's bitbucket account") / [(comment_spec)](https://bitbucket.org/wowiamhere/runtechservices/src/aa60bb9479aa7f4f54c9347fb3deff827b778401/spec/models/comment_spec.rb?at=master, "wowiamhere's bitbucket account")    
 
-*Controller specs*  
+##### Controller specs  
 
 **users_controller_spec.rb**  
 

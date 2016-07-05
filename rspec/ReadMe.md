@@ -8,7 +8,7 @@
 
 *These are a collection of Model tests for my Rails Online Portfolio*  
 
-*Model specs*  
+##### Model specs  
 
 **user_spec.rb** 
 
@@ -33,7 +33,7 @@
 
 ------------------------
 
-*Controller specs*  
+##### Controller specs  
 
 **users_controller_spec.rb**  
 
