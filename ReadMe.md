@@ -1,5 +1,5 @@
 # Sergio S.  
-#### sergioGnrl@hotmail    
+#### sergioGnrlhotmail    
 #### RunTechServices.com  
  
 -------------------------  
@@ -127,14 +127,14 @@ AngularJs uses rails backend custom controller `(~/app/controllers/api/)` to ser
 		- renders :show template  
 -	UsersController#post (posts new user)  
 	- checks  
-		- @user is true and instance of User  
+		- user is true and instance of User  
 		- flash  
 		- redirection  
 - UsersController#update  
 	- checks  
 		- update with correct information
-			- @user set and instance of User
-			- redirection to @user account
+			- user set and instance of User
+			- redirection to user account
 			- controller (subject)
 		- update with incomplete parameters passed information	
 			- response status (200)  
