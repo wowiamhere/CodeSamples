@@ -67,4 +67,6 @@
 
 > [Quick View](https://bitbucket.org/wowiamhere/codesamples/src/f6e51502b4d4fd2d51c974ff25949eb0550038c4/rspec/users_controller_spec.rb?at=master, "wowiamhere's bitbucket account")  
 
+> [Link to script within project](https://bitbucket.org/wowiamhere/runtechservices/src/26a0cc7555191c257b34d3792408a7d1d5b8f7b2/spec/controllers/users_controller_spec.rb?at=master&fileviewer=file-view-default, "wowiamhere's bitbucket account")  
+
 ------------------------
