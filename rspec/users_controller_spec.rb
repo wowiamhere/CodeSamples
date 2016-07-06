@@ -32,6 +32,7 @@ RSpec.describe UsersController, type: :controller do
 				@user2 = @user = User.create(id: "2", name:"two", email:"two@two.two", password:"password", password_confirmation:"password", admin:false)
 
 				subject.class.skip_before_filter :is_admin
+
 				get :index
 				expect(assigns(:users).size).to eq 2
 				expect(response.status).to eq 200
@@ -75,12 +76,69 @@ RSpec.describe UsersController, type: :controller do
 		end # context: loggedin user:renders show
 
 	end #describe: GET show
+#---------------------------------POST create tests
+	describe "POST create" do 
 
-#---------------------------------update tests
-	describe "POST update" do 
+		it "check: save user;set flash msg;kid of user;response status" do
+			post :create, {user: { name:"one", email:"three@one.one", password:"password", password_confirmation:"password" }}
+			expect(assigns(:user).save!).to be true
+			expect(flash[:success]).to match /Your RunTech Account has been created!/
+			expect(assigns(:user)).to be_an_instance_of User
+			expect(response).to redirect_to assigns(:user)
+		end
 
+	end #describe: Post create
+
+#---------------------------------PUT update tests	
+	describe "PUT uddate test::" do 
+
+			before(:example) do 
+				@user = User.create id: "1", name:"one", email:"one@one.one", password:"password", password_confirmation:"password", userimage: "user_1.jpg"
+
+				subject.class.skip_before_filter :is_logged_in
+				subject.class.skip_before_filter :is_user			
+			end
+
+				# Checks: @users set;set flash;redirection to @user profile.
+			it "with all correct information, no image" do 
+				put :update, id: @user.id, user: { name: "new Name", email: @user.email, password:@user.password, password_confirmation: @user.password_confirmation }
+
+				expect(assigns(:user)).to be_an_instance_of User
+				expect(response).to redirect_to @user
+				expect(controller.action_name).to match /update/
+			end
+
+				# Checks: clears controller (status 200);error upon save;render :edit
+			it "with incorrect information" do 
+				put :update, id: @user.id, user: { name: "one" }
+
+				expect(response.status).to be 200
+				expect{ assigns(:user).save! }.to raise_error ActiveRecord::RecordInvalid
+				expect(response).to render_template :edit
+			end
+
+	end #describe: PUT update
+
+#---------------------------------DELETE destroy tests
+	describe "DELETE destroy test" do
 		
+		context "submit user with info:" do
 
-	end	
+			before(:example) do 
+				@user = User.create id: "1", name:"one", email:"one@one.one", password:"password", password_confirmation:"password", userimage: "user_1.jpg"
+				subject.class.skip_before_filter :is_logged_in
+				subject.class.skip_before_filter :is_user	
+				controller.stub(:logout)
+			end
+
+			it "deletes account and redirects to sign-up page" do 
+				delete :destroy, id: "1"
+				expect(response).to redirect_to new_user_path
+				expect(flash[:notice]).to match /User was successfully destroyed./
+			end
+
+		end	#context "submit user with info:"
+	end #describe: "DELETE destroy test"
+
 
 end

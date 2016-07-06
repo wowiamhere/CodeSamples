@@ -49,6 +49,21 @@
 		- response status  
 		- variables set (user, pic) (via rspec match)  
 		- renders :show template  
+-	UsersController#post (posts new user)  
+	- checks  
+		- @user is true and instance of User  
+		- flash  
+		- redirection  
+- UsersController#update  
+	- checks  
+		- update with correct information
+			- @user set and instance of User
+			- redirection to @user account
+			- controller (subject)
+		- update with incomplete parameters passed information	
+			- response status (200)  
+			- ActiveRecord error matches .save!  
+			- renders :edit template  
 
 > [Quick View](https://bitbucket.org/wowiamhere/codesamples/src/f6e51502b4d4fd2d51c974ff25949eb0550038c4/rspec/users_controller_spec.rb?at=master, "wowiamhere's bitbucket account")  
 
