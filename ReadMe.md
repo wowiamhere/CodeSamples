@@ -1,6 +1,10 @@
 # Sergio S.  
 #### sergioGnrlhotmail    
 #### RunTechServices.com  
+
+*Please refer to:*
+**https://bitbucket.org/wowiamhere/resume**
+*for resume.*  
  
 -------------------------  
 
