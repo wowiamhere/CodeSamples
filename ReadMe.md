@@ -1,10 +1,8 @@
 # Sergio S.  
-#### sergiobsns@hotmail.com 
-#### RunTechServices.com  
-
-*Please refer to:*
-**https://bitbucket.org/wowiamhere/resume**
-*for resume.*  
+**wowiamhere@gmail.com**  
+[**ZenCodeMaster.com**](http://ZenCodeMaster.com)  
+**Resume:**  
+https://bitbucket.org/wowiamhere/resume
  
 -------------------------  
 
